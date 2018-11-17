@@ -1,0 +1,12 @@
+.slider {
+    width: 600px;
+    overflow: auto;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+    margin: 10px, 0;
+}
+
+.slider__img {
+    display: inline;
+    scroll-snap-align: center;
+}
